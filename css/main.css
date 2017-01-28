@@ -1,0 +1,411 @@
+@import url(../libs/bootstrap/bootstrap.min.css);
+@import url(../libs/bxSlider/jquery.bxslider.css);
+@font-face {
+  font-family: "MyriadAppleText";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadAppleText/MyriadAppleText.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadAppleText/MyriadAppleText.woff") format("woff"), url("../fonts/MyriadAppleText/MyriadAppleText.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MyriadProLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadProLight/MyriadProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProLight/MyriadProLight.woff") format("woff"), url("../fonts/MyriadProLight/MyriadProLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MyriadProRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MyriadProSemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"), url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SeganLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SeganLight/SeganLight.eot?#iefix") format("embedded-opentype"), url("../fonts/SeganLight/SeganLight.woff") format("woff"), url("../fonts/SeganLight/SeganLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TCMB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/TCMB/TCMB.eot?#iefix") format("embedded-opentype"), url("../fonts/TCMB/TCMB.woff") format("woff"), url("../fonts/TCMB/TCMB.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TCMI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/TCMI/TCMI.eot?#iefix") format("embedded-opentype"), url("../fonts/TCMI/TCMI.woff") format("woff"), url("../fonts/TCMI/TCMI.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TCMR";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/TCMR/TCMR.eot?#iefix") format("embedded-opentype"), url("../fonts/TCMR/TCMR.woff") format("woff"), url("../fonts/TCMR/TCMR.ttf") format("truetype");
+}
+body {
+  font-family: "MyriadProLight", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.no_padding {
+  padding: 0;
+}
+
+.tar {
+  text-align: right;
+}
+
+header {
+  background-image: url(../img/hp_bg_header.jpg);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 250px;
+}
+header h2 {
+  font-size: 36px;
+  font-family: "TCMR", sans-serif;
+  text-align: left;
+  color: #fcfcfc;
+  margin-bottom: 35px;
+}
+
+.top_header {
+  margin-bottom: 170px;
+}
+
+.logo_header img {
+  max-width: 100%;
+}
+
+.phone_header {
+  text-align: center;
+  color: #fff;
+}
+.phone_header p {
+  margin: 0;
+}
+.phone_header span {
+  font-family: "MyriadProSemiBold", sans-serif;
+  letter-spacing: 1px;
+}
+
+.nav_header button {
+  font-family: "MyriadProRegular", sans-serif;
+  color: #fff;
+  line-height: 8px;
+  letter-spacing: 1px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.content_header {
+  text-align: center;
+}
+.content_header h3 {
+  font-family: "TCMI", sans-serif;
+  font-size: 30px;
+  color: #f25822;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.content_header a {
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
+  width: 330px;
+  height: 65px;
+  line-height: 65px;
+  font-family: "TCMI", sans-serif;
+  font-size: 25px;
+  color: #fcfcfc;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.content_header .button_1 {
+  border: 2px #0f75bc solid;
+  margin-bottom: 40px;
+}
+.content_header .button_1:hover {
+  text-decoration: none;
+  background-color: #0f75bc;
+}
+.content_header .button_2 {
+  background-color: #0f75bc;
+  margin-bottom: 55px;
+  border: 2px #0f72b7 solid;
+}
+.content_header .button_2:hover {
+  border: 2px #0f75bc solid;
+  background-color: transparent;
+  text-decoration: none;
+}
+.content_header h4 {
+  font-family: "TCMR", sans-serif;
+  font-size: 24px;
+  color: #fcfcfc;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.veja {
+  text-align: center;
+  padding-bottom: 115px;
+}
+
+.top_veja {
+  box-shadow: 2px 4px 5px 0px rgba(1, 1, 1, 0.11);
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+}
+.top_veja h2 {
+  font-size: 48px;
+  font-family: "TCMR", sans-serif;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #212121;
+}
+.top_veja h2 span {
+  color: #f25822;
+  font-size: 36px;
+  font-family: "TCMB", sans-serif;
+}
+.top_veja .line {
+  width: 150px;
+  height: 1px;
+  background: #3a4550;
+  margin: 0 auto;
+}
+
+.veja_item {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.veja_item h6 {
+  color: #f25822;
+  font-size: 24px;
+  font-family: "MyriadProRegular", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+.veja_item p {
+  font-family: "MyriadProRegular", sans-serif;
+  color: #363636;
+  line-height: 18px;
+}
+
+.voce {
+  text-align: center;
+  padding-top: 75px;
+}
+.voce h2 {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-family: "MyriadAppleText", sans-serif;
+}
+
+.voce_item {
+  margin-bottom: 90px;
+}
+.voce_item img {
+  max-width: 100%;
+  margin-bottom: 35px;
+}
+.voce_item h6 {
+  color: #012121;
+  font-size: 22px;
+  font-family: "SeganLight", sans-serif;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.voce_item p {
+  line-height: 22px;
+  color: #212121;
+}
+
+.numeros {
+  text-align: center;
+  background: #F3F4FF;
+  padding-top: 110px;
+  padding-bottom: 140px;
+}
+.numeros h5 {
+  font-family: "TCMB", sans-serif;
+  color: #0f75bc;
+  font-size: 48px;
+  margin-bottom: 45px;
+}
+.numeros p {
+  font-size: 16px;
+  color: #212121;
+  font-family: "TCMR", sans-serif;
+}
+
+.top_numeros {
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+}
+.top_numeros h2 {
+  font-size: 48px;
+  font-family: "TCMR", sans-serif;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #212121;
+}
+.top_numeros h2 span {
+  color: #f25822;
+  font-size: 36px;
+  font-family: "TCMB", sans-serif;
+}
+.top_numeros .line {
+  width: 150px;
+  height: 1px;
+  background: #3a4550;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #39444F;
+  padding: 50px 0 30px;
+  text-align: center;
+}
+footer img {
+  max-width: 100%;
+}
+footer h6 {
+  color: #fff;
+}
+
+.logo_footer img {
+  max-width: 100%;
+}
+
+.social {
+  margin-top: 160px;
+  margin-bottom: 20px;
+}
+.social img {
+  max-width: 35px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  header {
+    background-image: none;
+    background-color: #B3B2B0;
+    padding-bottom: 50px;
+  }
+  header h2 {
+    text-align: center;
+  }
+
+  .veja_item {
+    margin-bottom: 40px;
+  }
+  .veja_item h6 {
+    margin-bottom: 20px;
+  }
+
+  .numeros {
+    padding-bottom: 50px;
+  }
+  .numeros h5 {
+    margin-bottom: 10px;
+  }
+  .numeros p {
+    margin-bottom: 30px;
+  }
+
+  .social {
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tar {
+    text-align: left;
+  }
+
+  .logo_header {
+    text-align: center;
+  }
+
+  header h2 {
+    font-size: 30px;
+  }
+
+  .content_header h3, .content_header a {
+    font-size: 24px;
+  }
+  .content_header a {
+    height: 50px;
+    line-height: 50px;
+    width: 270px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .top_header {
+    margin-bottom: 100px;
+  }
+
+  .top_veja h2 {
+    font-size: 24px;
+  }
+  .top_veja h2 span {
+    font-size: 18px;
+  }
+
+  .numeros {
+    padding-top: 50px;
+  }
+
+  .top_numeros h2 {
+    font-size: 24px;
+  }
+  .top_numeros h2 span {
+    font-size: 18px;
+  }
+
+  .nav_header {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .phone_header {
+    font-size: 12px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  .content_header h3, .content_header a, .content_header h4 {
+    font-size: 18px;
+  }
+
+  .content_header a {
+    height: 38px;
+    line-height: 38px;
+  }
+
+  .voce h2 {
+    font-size: 22px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
