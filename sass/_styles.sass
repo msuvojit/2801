@@ -1,9 +1,10 @@
 @import "bourbon/bourbon"
-@import "../libs/bootstrap/bootstrap.min.css"
+@import "../libs/bootstrap/css/bootstrap.min.css"
 @import "../libs/bxSlider/jquery.bxslider.css"
+@import "../libs/font-awesome-4.7.0/css/font-awesome.min.css"
 
 body
-	font-family: "MyriadProLight", sans-serif
+	font-family: "MyriadProLight", "Helvetica Neue", Helvetica, Arial, sans-serif
 	font-weight: normal
 	font-size: 14px
 	min-width: 320px
@@ -15,6 +16,9 @@ body
 	padding: 0
 .tar
 	text-align: right
+// --------------------index----------------------
+
+
 header
 	background-image: url(../img/hp_bg_header.jpg)
 	background-size: cover
@@ -22,7 +26,7 @@ header
 	padding-bottom: 250px
 	h2
 		font-size: 36px
-		font-family: "TCMR", sans-serif
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
 		text-align: left
 		color: #fcfcfc
 		margin-bottom: 35px
@@ -39,12 +43,12 @@ header
 	p
 		margin: 0
 	span
-		font-family: "MyriadProSemiBold", sans-serif
+		font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif
 		letter-spacing: 1px
 
 .nav_header
 	button
-		font-family: "MyriadProRegular", sans-serif
+		font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
 		color: #fff
 		line-height: 8px
 		letter-spacing: 1px
@@ -55,7 +59,7 @@ header
 .content_header
 	text-align: center
 	h3
-		font-family: "TCMI", sans-serif
+		font-family: "TCMI", "Helvetica Neue", Helvetica, Arial, sans-serif
 		font-size: 30px
 		color: $color_1
 		margin-top: 0
@@ -67,7 +71,7 @@ header
 		width: 330px
 		height: 65px
 		line-height: 65px
-		font-family: "TCMI", sans-serif
+		font-family: "TCMI", "Helvetica Neue", Helvetica, Arial, sans-serif
 		font-size: 25px
 		color: #fcfcfc
 		+transition(.5s all)
@@ -86,7 +90,7 @@ header
 			background-color: transparent
 			text-decoration: none
 	h4
-		font-family: "TCMR", sans-serif
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
 		font-size: 24px
 		color: #fcfcfc
 		margin-top: 0
@@ -103,14 +107,14 @@ header
 	margin-bottom: 70px
 	h2
 		font-size: 48px
-		font-family: "TCMR", sans-serif
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
 		margin-top: 0
 		margin-bottom: 30px
 		color: #212121
 		span
 			color: $color_1
 			font-size: 36px
-			font-family: "TCMB", sans-serif
+			font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif
 	.line
 		width: 150px
 		height: 1px
@@ -122,11 +126,11 @@ header
 	h6
 		color: $color_1
 		font-size: 24px
-		font-family: "MyriadProRegular", sans-serif
+		font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
 		margin-top: 15px
 		margin-bottom: 45px
 	p
-		font-family: "MyriadProRegular", sans-serif
+		font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
 		color: #363636
 		line-height: 18px
 
@@ -137,7 +141,7 @@ header
 	h2
 		margin-bottom: 60px
 		font-size: 30px
-		font-family: "MyriadAppleText", sans-serif
+		font-family: "MyriadAppleText", "Helvetica Neue", Helvetica, Arial, sans-serif
 
 .voce_item
 	margin-bottom: 90px
@@ -147,7 +151,7 @@ header
 	h6
 		color: #012121
 		font-size: 22px
-		font-family: "SeganLight", sans-serif
+		font-family: "SeganLight", "Helvetica Neue", Helvetica, Arial, sans-serif
 		margin: 0
 		margin-bottom: 25px
 	p
@@ -160,14 +164,14 @@ header
 	padding-top: 110px
 	padding-bottom: 140px
 	h5
-		font-family: "TCMB", sans-serif
+		font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif
 		color: $color_2
 		font-size: 48px
 		margin-bottom: 45px
 	p
 		font-size: 16px
 		color: #212121
-		font-family: "TCMR", sans-serif
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
 .top_numeros
 	text-transform: uppercase
 	padding-top: 15px
@@ -175,14 +179,14 @@ header
 	margin-bottom: 70px
 	h2
 		font-size: 48px
-		font-family: "TCMR", sans-serif
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
 		margin-top: 0
 		margin-bottom: 30px
 		color: #212121
 		span
 			color: $color_1
 			font-size: 36px
-			font-family: "TCMB", sans-serif
+			font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif
 	.line
 		width: 150px
 		height: 1px
@@ -208,3 +212,644 @@ footer
 	img
 		max-width: 35px
 		margin-right: 10px
+
+
+
+// --------------------billing----------------------
+.body_billing
+	header
+		background-image: url(../img/billing/hp_bg_header.jpg)
+		background-size: cover
+		padding-bottom: 150px
+		h2
+			text-align: center
+			color: #fff
+			font-size: 60px
+			margin-bottom: 80px
+			span
+				color: #818286
+	.top_header
+		margin-bottom: 160px
+.image_wrapper
+	img
+		max-width: 100%
+		margin-right: 150px
+		&:nth-child(3)
+			margin-right: 0
+
+.detalhes
+	padding-top: 100px
+	padding-bottom: 90px
+	h6
+		color: #363636
+		font-size: 18px
+		margin: 0 0 50px
+		text-align: center
+	input:-ms-input-placeholder, textarea:-ms-input-placeholder
+		color: #fff
+	input::-webkit-input-placeholder, textarea::-webkit-input-placeholder
+		color: #fff
+	input:-moz-placeholder, textarea:-moz-placeholder
+		color: #fff
+	input::-moz-placeholder, textarea::-moz-placeholder
+		color: #fff
+	input, textarea
+		width: 576px
+		height: 61px
+		margin: 0 auto 27px
+		display: block
+		background-color: $input
+		border: none
+		border-radius: 6px
+		font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
+		color: #fff
+		font-size: 16px
+		letter-spacing: 1px
+		padding-left: 20px
+	textarea
+		height: 180px
+	button
+		width: 184px
+		height: 61px
+		display: block
+		margin: 21px auto 90px
+		background-color: #DBDBDB
+		color: #212121
+		font-size: 18px
+		border: none
+		border-radius: 6px
+		outline: none
+	h5
+		font-size: 36px
+		color: #212121
+		text-align: center
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
+		margin: 0 0 45px
+		span
+			font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif
+			color: $color_1
+			font-size: 48px
+	p
+		text-align: center
+		color: #212121
+		font-size: 16px
+		max-width: 750px
+		margin: 0 auto
+.top_detalhes
+	text-align: center
+	.line
+		height: 1px
+		width: 410px
+		background: #3a4550
+		margin: 0 auto 50px
+	h2
+		font-size: 48px
+		color: #212121
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
+		margin: 0 0 25px
+		span
+			color: $color_1
+
+
+// --------------------location----------------------
+.body_location
+	header
+		background-image: url(../img/location/hp_bg_header.jpg)
+		background-size: cover
+	.detalhes
+		input[type="checkbox"]
+			width: 19px
+			height: 17px
+			margin: 0
+			display: inline
+		button
+			margin: 36px auto 90px
+		label
+			width: 380px
+			margin: 17px auto 44px
+			display: block
+			span
+				font-size: 16px
+				color: #212121
+				position: relative
+				bottom: 3px
+				left: 20px
+
+
+// --------------------signIn----------------------
+
+.body_signIn
+	.top_header
+		margin-bottom: 210px
+	header
+		h2
+			margin: 0 auto 300px
+	.detalhes
+		h5
+			font-size: 16px
+			span
+				font-size: 24px
+		input[type="checkbox"]
+			width: 19px
+			height: 17px
+			margin: 0
+			display: inline
+		button
+			margin: 36px auto 25px
+			border-radius: 15px
+		label
+			width: 180px
+			margin: 17px auto 44px
+			display: block
+			span
+				font-size: 16px
+				color: #212121
+				position: relative
+				bottom: 3px
+				left: 20px
+
+
+// --------------------signUp----------------------
+.body_signUp
+	.detalhes
+		label
+			width: 500px
+		select
+			width: 576px
+			height: 61px
+			margin: 0 auto 27px
+			display: block
+			background-color: $input
+			border: none
+			border-radius: 6px
+			font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
+			color: #fff
+			font-size: 16px
+			letter-spacing: 1px
+			padding-left: 20px
+
+
+// --------------------bookService----------------------
+
+.body_bookservice
+	header
+		background-image: url(../img/bookservice/hp_bg_header.jpg)
+		background-size: cover
+		padding-bottom: 300px
+		.top_header
+			margin-bottom: 230px
+		h2
+			margin: 0
+
+.cart
+	padding-top: 120px
+	padding-bottom: 110px
+	h2
+		font-size: 30px
+		color: #212121
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
+		margin: 0 0 50px
+		span
+			font-size: 48px
+			color: $color_1
+	.descr
+		p
+			font-size: 16px
+			color: #363636
+			line-height: 24px
+			margin: 0 0 30px
+		h3
+			font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif
+			letter-spacing: 1px
+			color: #363636
+			font-size: 16px
+			margin: 0 0 25px
+		h4
+			color: #363636
+			font-size: 18px
+			margin: 0 0 25px
+		ul
+			list-style-type: circle
+			li
+				margin-bottom: 20px
+				color: #363636
+
+	.resumo
+		h3
+			font-size: 18px
+			color: #363636
+			margin: 0 0 30px
+		form
+			>input, select
+				width: 480px
+				height: 60px
+				margin: 0 0 45px
+				display: block
+				background-color: $input
+				border: none
+				border-radius: 6px
+				font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
+				color: #fff
+				font-size: 16px
+				letter-spacing: 1px
+				padding-left: 20px
+				outline: none
+		label
+			display: block
+			margin-bottom: 15px
+			&:nth-child(8)
+				margin-bottom: 60px
+			input
+				width: 17px
+				height: 17px
+			span
+				color: #363636
+				position: relative
+				bottom: 3px
+				left: 5px
+.wrapper_resumo
+	border: 1px #b3b3b3 solid
+	padding: 30px 20px 110px
+	.line
+		background-color: #363636
+		width: 95%
+		height: 1px
+		margin: 10px 0
+	h4
+		font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif
+		color: #363636
+		font-size: 30px
+		letter-spacing: 2px
+		margin: 0 0 25px
+.price_desc, .price
+	font-size: 16px
+	color: #363636
+	margin-bottom: 18px
+.total_desc, .total
+	font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif
+	font-size: 16px
+	color: #363636
+
+
+// --------------------testimonials----------------------
+.body_testimonials
+	header
+		background-image: url(../img/testimomials/hp_bg_header.jpg)
+		background-size: cover
+		padding-bottom: 320px
+		.top_header
+			margin-bottom: 300px
+	.top_detalhes
+		.line
+			width: 280px
+
+
+.depoi_item
+	.name
+		color: #3fa1da
+		font-size: 18px
+	.date
+		color: $color_1
+		font-size: 16px
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
+	.stars_wrap
+		text-align: right
+	i
+		color: #FDD002
+		font-size: 18px
+	.message
+		min-height: 138px
+		background-color: #F05721
+		padding: 15px
+		border-radius: 20px
+		margin: 25px 0 45px
+		p
+			color: #fff
+			font-size: 13px
+			line-height: 22px
+			text-align: left
+
+
+// --------------------business----------------------
+.body_business
+	header
+		background-image: url(../img/business/hp_bg_header.jpg)
+		background-size: cover
+		padding-bottom: 50px
+		h2
+			font-size: 40px
+	.top_header
+		margin-bottom: 50px
+		
+.business_item
+	padding-top: 25px
+	a
+		display: block
+		margin: 30px auto 0
+		width: 148px
+		height: 52px
+		line-height: 52px
+		background-color: #0E74BA
+		color: #fff
+		text-align: center
+		border-radius: 30px
+		+transition(.5s all)
+		&:hover
+			text-decoration: none
+			color: #0E74BA
+			background-color: #fff			
+	.business_head
+		background-color: #0E74BA
+		color: #fff
+		padding: 35px 25px 15px
+		border-radius: 15px 15px 0 0
+		text-align: center
+		h5
+			font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
+			font-size: 24px
+			margin: 0 0 20px
+			text-transform: uppercase
+		p
+			font-size: 13px
+			line-height: 22px
+			margin: 0 0 15px
+			text-align: justify
+		h6
+			font-size: 13px
+			span
+				font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif
+				font-size: 24px
+	.business_content
+		background-color: rgba(0,0,0,.63)
+		border-radius: 0 0 15px 15px
+		padding: 10px 25px 40px
+		span
+			display: block
+			color: #bebebe
+			border-bottom: 1px solid #2b2b2b
+			text-align: center
+			padding: 10px 0
+			&:nth-last-child(1)
+				padding-bottom: 0
+				border-bottom: none
+.business_item_2
+	padding-top: 0
+	.business_head
+		background-color: #EE5321
+		padding-top: 30px
+		h4
+			font-size: 14px
+			margin: 0 0 15px
+		p
+			margin: 0 0 81px
+	.business_content
+		padding-bottom: 18px
+.business_item_3
+	.business_head
+		p
+			margin: 0 0 57px
+	.business_content
+		padding-bottom: 107px
+.business_item_4
+	.business_head
+		background-color: #EE5321
+		p
+			text-align: center
+			margin: 0 0 100px
+	.business_content
+		padding-bottom: 127px
+
+.benefits
+	padding: 80px 0 130px
+	background: url(../img/business/bg.png) no-repeat top right, #E5E4E4
+	background-size: cover
+	text-align: center
+	h2
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
+		font-size: 48px
+		color: #012121
+		margin: 0 0 15px
+		span
+			color: $color_1
+	.line
+		width: 190px
+		height: 1px
+		background: #010101
+		margin: 0 auto 130px
+	img
+		margin-bottom: 135px
+		&.ben_4
+			margin-bottom: 0
+	h6
+		font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
+		font-size: 24px
+		color: $color_2
+		letter-spacing: 1px
+		text-align: left
+		margin: 0 0 45px
+	p
+		color: #212121
+		line-height: 18px
+		text-align: left
+		margin: 0
+
+.ben_1
+	max-width: 136px
+.ben_2
+	max-width: 298px
+.ben_3
+	max-width: 89px
+.ben_4
+	max-width: 119px
+
+
+// --------------------business----------------------
+.body_planforhome
+	.business_item_1
+		.business_head
+			p
+				margin-bottom: 35px
+	.business_item_2
+		.business_head
+			p
+				margin-bottom: 15px
+		.business_content
+			padding-bottom: 40px
+	.business_item_3
+		.business_head
+			p
+				margin-bottom: 15px
+		.business_content
+			padding-bottom: 125px
+	.business_item_4
+		.business_head
+			p
+				margin-bottom: 40px
+				text-align: justify	
+		.business_content
+			padding-bottom: 165px
+
+
+// --------------------subhome----------------------
+.body_subhome
+	header
+		background-image: url(../img/subhome/hp_bg_header.jpg)
+		background-size: cover
+		padding-bottom: 260px
+	.top_header
+		margin-bottom: 140px
+	h2
+		margin-bottom: 70px
+	select
+		width: 100%
+		height: 60px
+		border: 2px solid $input
+		background-color: transparent
+		color: #fff
+		border-radius: 10px
+		padding-left: 25px
+		outline: none
+		option
+			background-color: lighten($input, 10%)
+	.top_detalhes
+		.line
+			width: 290px
+			margin-bottom: 110px
+		h2
+			margin-bottom: 10px
+
+.serv_item
+	background-color: #F4F3F3
+	padding: 15px 20px
+	margin-bottom: 30px
+	img
+		max-width: 100%
+		margin-top: 15px
+	h4
+		margin: 0 0 15px
+		font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
+		font-size: 16px
+		color: #212121
+		span
+			color: $color_1
+	.line
+		background: #212121
+		width: 100%
+		height: 1px
+		margin-bottom: 15px
+	.price_serv, .review
+		color: #787878
+	i
+		color: #FDD002
+	.review
+		float: right
+
+
+// --------------------mainserv----------------------
+.body_mainserv
+	.voce
+		a
+			display: block
+			margin: 0 auto 145px
+			width: 220px
+			height: 65px
+			line-height: 65px
+			color: #fff
+			background-color: $color_1
+			border-radius: 30px
+			font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
+			font-size: 16px
+			+transition(.5s all)
+			&:hover
+				background-color: lighten($color_1, 10%)
+				text-decoration: none
+	header
+		h2
+			margin-bottom: 140px
+	.percent
+		font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif
+		font-size: 48px
+		text-align: center
+		margin: 0
+		color: $color_2
+.main_content_wrap
+	padding-right: 100px
+	padding-top: 70px
+	h6
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
+		font-size: 30px
+		color: #fff
+		margin: 0 0 30px
+	.c2
+		color: $color_1
+	.c1
+		color: $color_2
+	.share
+		color: #fff
+		margin: 0 0 40px
+	p
+		color: #fff
+		margin: 0 0 30px
+		text-align: justify
+	a
+		color: #fff
+		margin-left: 20px
+		font-size: 22px
+		+transition(.5s all)
+		&:hover
+			color: $color_2
+
+.book_wrapper
+	padding: 20px 0
+	background-color: rgba(0,0,0,.63)
+	text-align: center
+	border-radius: 15px
+	h5
+		font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif
+		font-size: 36px
+		color: #fff
+		border-bottom: 1px #383838 solid
+		padding: 0 0 20px
+	.reviews
+		border-bottom: 1px #383838 solid
+		padding: 20px 0
+		i
+			color: #FDD002
+			font-size: 18px
+		span
+			color: #d5d5d5
+			margin-left: 65px
+	a
+		display: block
+		margin: 0 auto
+		width: 240px
+		height: 55px
+		line-height: 55px
+		font-size: 18px
+		font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif
+		color: #fff
+		border-radius: 30px
+		+transition(.5s all)
+	.button_1
+		background-color: $color_1
+		margin: 35px auto 25px
+		&:hover
+			background-color: lighten($color_1, 10%)
+			text-decoration: none
+	.button_2
+		background-color: $color_2
+		margin-bottom: 25px
+		&:hover
+			background-color: lighten($color_2, 10%)
+			text-decoration: none
+	h6
+		font-size: 18px
+		color: #fff
+		margin: 0 0 25px
+		span
+			font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif
+			font-size: 36px
+	p
+		font-size: 13px
+		color: #fff
+		margin: 0

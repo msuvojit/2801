@@ -1,5 +1,6 @@
-@import url(../libs/bootstrap/bootstrap.min.css);
+@import url(../libs/bootstrap/css/bootstrap.min.css);
 @import url(../libs/bxSlider/jquery.bxslider.css);
+@import url(../libs/font-awesome-4.7.0/css/font-awesome.min.css);
 @font-face {
   font-family: "MyriadAppleText";
   font-style: normal;
@@ -49,7 +50,7 @@
   src: url("../fonts/TCMR/TCMR.eot?#iefix") format("embedded-opentype"), url("../fonts/TCMR/TCMR.woff") format("woff"), url("../fonts/TCMR/TCMR.ttf") format("truetype");
 }
 body {
-  font-family: "MyriadProLight", sans-serif;
+  font-family: "MyriadProLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
@@ -75,7 +76,7 @@ header {
 }
 header h2 {
   font-size: 36px;
-  font-family: "TCMR", sans-serif;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   color: #fcfcfc;
   margin-bottom: 35px;
@@ -97,12 +98,12 @@ header h2 {
   margin: 0;
 }
 .phone_header span {
-  font-family: "MyriadProSemiBold", sans-serif;
+  font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
 }
 
 .nav_header button {
-  font-family: "MyriadProRegular", sans-serif;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   line-height: 8px;
   letter-spacing: 1px;
@@ -115,7 +116,7 @@ header h2 {
   text-align: center;
 }
 .content_header h3 {
-  font-family: "TCMI", sans-serif;
+  font-family: "TCMI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
   color: #f25822;
   margin-top: 0;
@@ -128,7 +129,7 @@ header h2 {
   width: 330px;
   height: 65px;
   line-height: 65px;
-  font-family: "TCMI", sans-serif;
+  font-family: "TCMI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 25px;
   color: #fcfcfc;
   -webkit-transition: 0.5s all;
@@ -153,7 +154,7 @@ header h2 {
   text-decoration: none;
 }
 .content_header h4 {
-  font-family: "TCMR", sans-serif;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: #fcfcfc;
   margin-top: 0;
@@ -174,7 +175,7 @@ header h2 {
 }
 .top_veja h2 {
   font-size: 48px;
-  font-family: "TCMR", sans-serif;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0;
   margin-bottom: 30px;
   color: #212121;
@@ -182,7 +183,7 @@ header h2 {
 .top_veja h2 span {
   color: #f25822;
   font-size: 36px;
-  font-family: "TCMB", sans-serif;
+  font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .top_veja .line {
   width: 150px;
@@ -198,12 +199,12 @@ header h2 {
 .veja_item h6 {
   color: #f25822;
   font-size: 24px;
-  font-family: "MyriadProRegular", sans-serif;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 15px;
   margin-bottom: 45px;
 }
 .veja_item p {
-  font-family: "MyriadProRegular", sans-serif;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #363636;
   line-height: 18px;
 }
@@ -215,7 +216,7 @@ header h2 {
 .voce h2 {
   margin-bottom: 60px;
   font-size: 30px;
-  font-family: "MyriadAppleText", sans-serif;
+  font-family: "MyriadAppleText", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .voce_item {
@@ -228,7 +229,7 @@ header h2 {
 .voce_item h6 {
   color: #012121;
   font-size: 22px;
-  font-family: "SeganLight", sans-serif;
+  font-family: "SeganLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   margin-bottom: 25px;
 }
@@ -244,7 +245,7 @@ header h2 {
   padding-bottom: 140px;
 }
 .numeros h5 {
-  font-family: "TCMB", sans-serif;
+  font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #0f75bc;
   font-size: 48px;
   margin-bottom: 45px;
@@ -252,7 +253,7 @@ header h2 {
 .numeros p {
   font-size: 16px;
   color: #212121;
-  font-family: "TCMR", sans-serif;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .top_numeros {
@@ -263,7 +264,7 @@ header h2 {
 }
 .top_numeros h2 {
   font-size: 48px;
-  font-family: "TCMR", sans-serif;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0;
   margin-bottom: 30px;
   color: #212121;
@@ -271,7 +272,7 @@ header h2 {
 .top_numeros h2 span {
   color: #f25822;
   font-size: 36px;
-  font-family: "TCMB", sans-serif;
+  font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .top_numeros .line {
   width: 150px;
@@ -305,6 +306,793 @@ footer h6 {
   margin-right: 10px;
 }
 
+.body_billing header {
+  background-image: url(../img/billing/hp_bg_header.jpg);
+  background-size: cover;
+  padding-bottom: 150px;
+}
+.body_billing header h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+.body_billing header h2 span {
+  color: #818286;
+}
+.body_billing .top_header {
+  margin-bottom: 160px;
+}
+
+.image_wrapper img {
+  max-width: 100%;
+  margin-right: 150px;
+}
+.image_wrapper img:nth-child(3) {
+  margin-right: 0;
+}
+
+.detalhes {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+.detalhes h6 {
+  color: #363636;
+  font-size: 18px;
+  margin: 0 0 50px;
+  text-align: center;
+}
+.detalhes input:-ms-input-placeholder, .detalhes textarea:-ms-input-placeholder {
+  color: #fff;
+}
+.detalhes input::-webkit-input-placeholder, .detalhes textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+.detalhes input:-moz-placeholder, .detalhes textarea:-moz-placeholder {
+  color: #fff;
+}
+.detalhes input::-moz-placeholder, .detalhes textarea::-moz-placeholder {
+  color: #fff;
+}
+.detalhes input, .detalhes textarea {
+  width: 576px;
+  height: 61px;
+  margin: 0 auto 27px;
+  display: block;
+  background-color: #3E9FD8;
+  border: none;
+  border-radius: 6px;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+.detalhes textarea {
+  height: 180px;
+}
+.detalhes button {
+  width: 184px;
+  height: 61px;
+  display: block;
+  margin: 21px auto 90px;
+  background-color: #DBDBDB;
+  color: #212121;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+.detalhes h5 {
+  font-size: 36px;
+  color: #212121;
+  text-align: center;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 0 45px;
+}
+.detalhes h5 span {
+  font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f25822;
+  font-size: 48px;
+}
+.detalhes p {
+  text-align: center;
+  color: #212121;
+  font-size: 16px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.top_detalhes {
+  text-align: center;
+}
+.top_detalhes .line {
+  height: 1px;
+  width: 410px;
+  background: #3a4550;
+  margin: 0 auto 50px;
+}
+.top_detalhes h2 {
+  font-size: 48px;
+  color: #212121;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 0 25px;
+}
+.top_detalhes h2 span {
+  color: #f25822;
+}
+
+.body_location header {
+  background-image: url(../img/location/hp_bg_header.jpg);
+  background-size: cover;
+}
+.body_location .detalhes input[type="checkbox"] {
+  width: 19px;
+  height: 17px;
+  margin: 0;
+  display: inline;
+}
+.body_location .detalhes button {
+  margin: 36px auto 90px;
+}
+.body_location .detalhes label {
+  width: 380px;
+  margin: 17px auto 44px;
+  display: block;
+}
+.body_location .detalhes label span {
+  font-size: 16px;
+  color: #212121;
+  position: relative;
+  bottom: 3px;
+  left: 20px;
+}
+
+.body_signIn .top_header {
+  margin-bottom: 210px;
+}
+.body_signIn header h2 {
+  margin: 0 auto 300px;
+}
+.body_signIn .detalhes h5 {
+  font-size: 16px;
+}
+.body_signIn .detalhes h5 span {
+  font-size: 24px;
+}
+.body_signIn .detalhes input[type="checkbox"] {
+  width: 19px;
+  height: 17px;
+  margin: 0;
+  display: inline;
+}
+.body_signIn .detalhes button {
+  margin: 36px auto 25px;
+  border-radius: 15px;
+}
+.body_signIn .detalhes label {
+  width: 180px;
+  margin: 17px auto 44px;
+  display: block;
+}
+.body_signIn .detalhes label span {
+  font-size: 16px;
+  color: #212121;
+  position: relative;
+  bottom: 3px;
+  left: 20px;
+}
+
+.body_signUp .detalhes label {
+  width: 500px;
+}
+.body_signUp .detalhes select {
+  width: 576px;
+  height: 61px;
+  margin: 0 auto 27px;
+  display: block;
+  background-color: #3E9FD8;
+  border: none;
+  border-radius: 6px;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+
+.body_bookservice header {
+  background-image: url(../img/bookservice/hp_bg_header.jpg);
+  background-size: cover;
+  padding-bottom: 300px;
+}
+.body_bookservice header .top_header {
+  margin-bottom: 230px;
+}
+.body_bookservice header h2 {
+  margin: 0;
+}
+
+.cart {
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+.cart h2 {
+  font-size: 30px;
+  color: #212121;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 0 50px;
+}
+.cart h2 span {
+  font-size: 48px;
+  color: #f25822;
+}
+.cart .descr p {
+  font-size: 16px;
+  color: #363636;
+  line-height: 24px;
+  margin: 0 0 30px;
+}
+.cart .descr h3 {
+  font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #363636;
+  font-size: 16px;
+  margin: 0 0 25px;
+}
+.cart .descr h4 {
+  color: #363636;
+  font-size: 18px;
+  margin: 0 0 25px;
+}
+.cart .descr ul {
+  list-style-type: circle;
+}
+.cart .descr ul li {
+  margin-bottom: 20px;
+  color: #363636;
+}
+.cart .resumo h3 {
+  font-size: 18px;
+  color: #363636;
+  margin: 0 0 30px;
+}
+.cart .resumo form > input, .cart .resumo form select {
+  width: 480px;
+  height: 60px;
+  margin: 0 0 45px;
+  display: block;
+  background-color: #3E9FD8;
+  border: none;
+  border-radius: 6px;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  outline: none;
+}
+.cart .resumo label {
+  display: block;
+  margin-bottom: 15px;
+}
+.cart .resumo label:nth-child(8) {
+  margin-bottom: 60px;
+}
+.cart .resumo label input {
+  width: 17px;
+  height: 17px;
+}
+.cart .resumo label span {
+  color: #363636;
+  position: relative;
+  bottom: 3px;
+  left: 5px;
+}
+
+.wrapper_resumo {
+  border: 1px #b3b3b3 solid;
+  padding: 30px 20px 110px;
+}
+.wrapper_resumo .line {
+  background-color: #363636;
+  width: 95%;
+  height: 1px;
+  margin: 10px 0;
+}
+.wrapper_resumo h4 {
+  font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #363636;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 0 25px;
+}
+
+.price_desc, .price {
+  font-size: 16px;
+  color: #363636;
+  margin-bottom: 18px;
+}
+
+.total_desc, .total {
+  font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #363636;
+}
+
+.body_testimonials header {
+  background-image: url(../img/testimomials/hp_bg_header.jpg);
+  background-size: cover;
+  padding-bottom: 320px;
+}
+.body_testimonials header .top_header {
+  margin-bottom: 300px;
+}
+.body_testimonials .top_detalhes .line {
+  width: 280px;
+}
+
+.depoi_item .name {
+  color: #3fa1da;
+  font-size: 18px;
+}
+.depoi_item .date {
+  color: #f25822;
+  font-size: 16px;
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.depoi_item .stars_wrap {
+  text-align: right;
+}
+.depoi_item i {
+  color: #FDD002;
+  font-size: 18px;
+}
+.depoi_item .message {
+  min-height: 138px;
+  background-color: #F05721;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 25px 0 45px;
+}
+.depoi_item .message p {
+  color: #fff;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.body_business header {
+  background-image: url(../img/business/hp_bg_header.jpg);
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.body_business header h2 {
+  font-size: 40px;
+}
+.body_business .top_header {
+  margin-bottom: 50px;
+}
+
+.business_item {
+  padding-top: 25px;
+}
+.business_item a {
+  display: block;
+  margin: 30px auto 0;
+  width: 148px;
+  height: 52px;
+  line-height: 52px;
+  background-color: #0E74BA;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.business_item a:hover {
+  text-decoration: none;
+  color: #0E74BA;
+  background-color: #fff;
+}
+.business_item .business_head {
+  background-color: #0E74BA;
+  color: #fff;
+  padding: 35px 25px 15px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+.business_item .business_head h5 {
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+.business_item .business_head p {
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 15px;
+  text-align: justify;
+}
+.business_item .business_head h6 {
+  font-size: 13px;
+}
+.business_item .business_head h6 span {
+  font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+.business_item .business_content {
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 0 0 15px 15px;
+  padding: 10px 25px 40px;
+}
+.business_item .business_content span {
+  display: block;
+  color: #bebebe;
+  border-bottom: 1px solid #2b2b2b;
+  text-align: center;
+  padding: 10px 0;
+}
+.business_item .business_content span:nth-last-child(1) {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.business_item_2 {
+  padding-top: 0;
+}
+.business_item_2 .business_head {
+  background-color: #EE5321;
+  padding-top: 30px;
+}
+.business_item_2 .business_head h4 {
+  font-size: 14px;
+  margin: 0 0 15px;
+}
+.business_item_2 .business_head p {
+  margin: 0 0 81px;
+}
+.business_item_2 .business_content {
+  padding-bottom: 18px;
+}
+
+.business_item_3 .business_head p {
+  margin: 0 0 57px;
+}
+.business_item_3 .business_content {
+  padding-bottom: 107px;
+}
+
+.business_item_4 .business_head {
+  background-color: #EE5321;
+}
+.business_item_4 .business_head p {
+  text-align: center;
+  margin: 0 0 100px;
+}
+.business_item_4 .business_content {
+  padding-bottom: 127px;
+}
+
+.benefits {
+  padding: 80px 0 130px;
+  background: url(../img/business/bg.png) no-repeat top right, #E5E4E4;
+  background-size: cover;
+  text-align: center;
+}
+.benefits h2 {
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  color: #012121;
+  margin: 0 0 15px;
+}
+.benefits h2 span {
+  color: #f25822;
+}
+.benefits .line {
+  width: 190px;
+  height: 1px;
+  background: #010101;
+  margin: 0 auto 130px;
+}
+.benefits img {
+  margin-bottom: 135px;
+}
+.benefits img.ben_4 {
+  margin-bottom: 0;
+}
+.benefits h6 {
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #0f75bc;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 0 0 45px;
+}
+.benefits p {
+  color: #212121;
+  line-height: 18px;
+  text-align: left;
+  margin: 0;
+}
+
+.ben_1 {
+  max-width: 136px;
+}
+
+.ben_2 {
+  max-width: 298px;
+}
+
+.ben_3 {
+  max-width: 89px;
+}
+
+.ben_4 {
+  max-width: 119px;
+}
+
+.body_planforhome .business_item_1 .business_head p {
+  margin-bottom: 35px;
+}
+.body_planforhome .business_item_2 .business_head p {
+  margin-bottom: 15px;
+}
+.body_planforhome .business_item_2 .business_content {
+  padding-bottom: 40px;
+}
+.body_planforhome .business_item_3 .business_head p {
+  margin-bottom: 15px;
+}
+.body_planforhome .business_item_3 .business_content {
+  padding-bottom: 125px;
+}
+.body_planforhome .business_item_4 .business_head p {
+  margin-bottom: 40px;
+  text-align: justify;
+}
+.body_planforhome .business_item_4 .business_content {
+  padding-bottom: 165px;
+}
+
+.body_subhome header {
+  background-image: url(../img/subhome/hp_bg_header.jpg);
+  background-size: cover;
+  padding-bottom: 260px;
+}
+.body_subhome .top_header {
+  margin-bottom: 140px;
+}
+.body_subhome h2 {
+  margin-bottom: 70px;
+}
+.body_subhome select {
+  width: 100%;
+  height: 60px;
+  border: 2px solid #3E9FD8;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 10px;
+  padding-left: 25px;
+  outline: none;
+}
+.body_subhome select option {
+  background-color: #68b4e1;
+}
+.body_subhome .top_detalhes .line {
+  width: 290px;
+  margin-bottom: 110px;
+}
+.body_subhome .top_detalhes h2 {
+  margin-bottom: 10px;
+}
+
+.serv_item {
+  background-color: #F4F3F3;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+.serv_item img {
+  max-width: 100%;
+  margin-top: 15px;
+}
+.serv_item h4 {
+  margin: 0 0 15px;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #212121;
+}
+.serv_item h4 span {
+  color: #f25822;
+}
+.serv_item .line {
+  background: #212121;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 15px;
+}
+.serv_item .price_serv, .serv_item .review {
+  color: #787878;
+}
+.serv_item i {
+  color: #FDD002;
+}
+.serv_item .review {
+  float: right;
+}
+
+.body_mainserv .voce a {
+  display: block;
+  margin: 0 auto 145px;
+  width: 220px;
+  height: 65px;
+  line-height: 65px;
+  color: #fff;
+  background-color: #f25822;
+  border-radius: 30px;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.body_mainserv .voce a:hover {
+  background-color: #f57c52;
+  text-decoration: none;
+}
+.body_mainserv header h2 {
+  margin-bottom: 140px;
+}
+.body_mainserv .percent {
+  font-family: "TCMB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+  color: #0f75bc;
+}
+
+.main_content_wrap {
+  padding-right: 100px;
+  padding-top: 70px;
+}
+.main_content_wrap h6 {
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #fff;
+  margin: 0 0 30px;
+}
+.main_content_wrap .c2 {
+  color: #f25822;
+}
+.main_content_wrap .c1 {
+  color: #0f75bc;
+}
+.main_content_wrap .share {
+  color: #fff;
+  margin: 0 0 40px;
+}
+.main_content_wrap p {
+  color: #fff;
+  margin: 0 0 30px;
+  text-align: justify;
+}
+.main_content_wrap a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 22px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.main_content_wrap a:hover {
+  color: #0f75bc;
+}
+
+.book_wrapper {
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.63);
+  text-align: center;
+  border-radius: 15px;
+}
+.book_wrapper h5 {
+  font-family: "TCMR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  color: #fff;
+  border-bottom: 1px #383838 solid;
+  padding: 0 0 20px;
+}
+.book_wrapper .reviews {
+  border-bottom: 1px #383838 solid;
+  padding: 20px 0;
+}
+.book_wrapper .reviews i {
+  color: #FDD002;
+  font-size: 18px;
+}
+.book_wrapper .reviews span {
+  color: #d5d5d5;
+  margin-left: 65px;
+}
+.book_wrapper a {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 18px;
+  font-family: "MyriadProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  border-radius: 30px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.book_wrapper .button_1 {
+  background-color: #f25822;
+  margin: 35px auto 25px;
+}
+.book_wrapper .button_1:hover {
+  background-color: #f57c52;
+  text-decoration: none;
+}
+.book_wrapper .button_2 {
+  background-color: #0f75bc;
+  margin-bottom: 25px;
+}
+.book_wrapper .button_2:hover {
+  background-color: #1392eb;
+  text-decoration: none;
+}
+.book_wrapper h6 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 25px;
+}
+.book_wrapper h6 span {
+  font-family: "MyriadProSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+}
+.book_wrapper p {
+  font-size: 13px;
+  color: #fff;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+  .veja_item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .image_wrapper img {
+    margin-right: 80px;
+  }
+
+  .business_item .business_head h5 {
+    font-size: 18px;
+  }
+
+  .business_item .business_content span {
+    font-size: 12px;
+  }
+
+  .business_item_2 .business_content {
+    padding-bottom: 40px;
+  }
+
+  .body_planforhome .business_item_2 .business_head p {
+    margin-bottom: 35px;
+  }
+
+  .body_planforhome .business_item_3 .business_content {
+    padding-bottom: 115px;
+  }
+
+  .body_planforhome .business_item_4 .business_content {
+    padding-bottom: 170px;
+  }
+
+  .serv_item h4 {
+    font-size: 14px;
+  }
+}
 @media only screen and (max-width: 991px) {
   header {
     background-image: none;
@@ -317,9 +1105,23 @@ footer h6 {
 
   .veja_item {
     margin-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
   .veja_item h6 {
     margin-bottom: 20px;
+  }
+
+  .voce_item {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 60px;
+  }
+  .voce_item img {
+    margin-bottom: 15px;
+  }
+  .voce_item h6 {
+    margin-bottom: 10px;
   }
 
   .numeros {
@@ -334,6 +1136,98 @@ footer h6 {
 
   .social {
     margin-top: 70px;
+  }
+
+  .image_wrapper img:nth-child(1) {
+    margin-left: 80px;
+  }
+
+  .body_billing header h2 {
+    font-size: 52px;
+  }
+
+  .depoi_item .message {
+    min-height: 100px;
+  }
+
+  .body_testimonials header {
+    padding-bottom: 150px;
+  }
+
+  .body_testimonials header .top_header {
+    margin-bottom: 150px;
+  }
+
+  .business_item_2 .business_head p {
+    margin-bottom: 12px;
+  }
+
+  .business_item {
+    padding-top: 0;
+  }
+
+  .business_item_4 .business_head p {
+    margin-bottom: 80px;
+  }
+
+  .business_item_4 .business_content {
+    padding-bottom: 107px;
+  }
+
+  .business_item a {
+    margin-bottom: 40px;
+  }
+
+  .body_business header h2 {
+    font-size: 36px;
+  }
+
+  .benefits h6 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .benefits img {
+    margin-bottom: 70px;
+  }
+
+  .ben_1 {
+    max-width: 100px;
+  }
+
+  .ben_2 {
+    max-width: 200px;
+  }
+
+  .ben_3 {
+    max-width: 70px;
+  }
+
+  .ben_4 {
+    max-width: 70px;
+  }
+
+  .body_planforhome .business_item_1 .business_head p {
+    margin-bottom: 55px;
+  }
+
+  .body_planforhome .business_item_2 .business_head p {
+    margin-bottom: 10px;
+  }
+
+  .body_planforhome .business_item_4 .business_content {
+    padding-bottom: 155px;
+  }
+
+  .serv_item h4 {
+    font-size: 16px;
+  }
+
+  .body_mainserv header h2 {
+    margin-bottom: 20px;
+  }
+
+  .main_content_wrap {
+    padding-right: 0;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -357,10 +1251,90 @@ footer h6 {
     line-height: 50px;
     width: 270px;
   }
+
+  .body_billing header h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .image_wrapper {
+    margin: 0 auto;
+    width: 330px;
+  }
+  .image_wrapper img {
+    max-width: 80px;
+    margin-right: 40px;
+  }
+  .image_wrapper img:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .detalhes input, .detalhes textarea {
+    width: 450px;
+  }
+
+  .body_signUp .detalhes label {
+    width: 430px;
+  }
+  .body_signUp .detalhes label span {
+    left: 10px;
+  }
+  .body_signUp .detalhes select {
+    width: 450px;
+  }
+
+  .cart .resumo form > input, .cart .resumo form select {
+    width: 400px;
+  }
+
+  .cart {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  .business_item_3 .business_content {
+    padding-bottom: 40px;
+  }
+
+  .business_item_4 .business_content {
+    padding-bottom: 40px;
+  }
+
+  .benefits {
+    padding: 60px 0 70px;
+  }
+  .benefits .line {
+    margin-bottom: 70px;
+  }
+  .benefits img {
+    margin-bottom: 20px;
+  }
+  .benefits img.ben_4 {
+    margin-bottom: 20px;
+  }
+  .benefits h6, .benefits p {
+    text-align: center;
+  }
+  .benefits p {
+    margin-bottom: 70px;
+  }
+
+  .body_subhome select {
+    margin-bottom: 50px;
+  }
+
+  .body_subhome header {
+    padding-bottom: 210px;
+  }
 }
 @media only screen and (max-width: 479px) {
   .top_header {
     margin-bottom: 100px;
+  }
+
+  .veja_item, .voce_item {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .top_veja h2 {
@@ -405,6 +1379,129 @@ footer h6 {
 
   .voce h2 {
     font-size: 22px;
+  }
+
+  .body_billing header h2 {
+    font-size: 23px;
+  }
+
+  .image_wrapper {
+    width: 295px;
+  }
+  .image_wrapper img {
+    margin-right: 22px;
+  }
+
+  .detalhes {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .detalhes h5 {
+    font-size: 18px;
+  }
+  .detalhes h5 span {
+    font-size: 24px;
+  }
+  .detalhes p, .detalhes h6 {
+    font-size: 14px;
+  }
+  .detalhes textarea {
+    width: 300px;
+  }
+  .detalhes input {
+    width: 300px;
+    height: 45px;
+    font-size: 12px;
+    margin: 0 auto 5px;
+  }
+  .detalhes button {
+    height: 45px;
+    font-size: 14px;
+    margin: 10px auto 40px;
+  }
+  .detalhes h2 {
+    font-size: 36px;
+  }
+
+  .top_detalhes .line {
+    width: 300px;
+  }
+
+  .body_location .detalhes h2 {
+    font-size: 24px;
+  }
+  .body_location .detalhes textarea {
+    font-size: 10px;
+    height: 120px;
+  }
+  .body_location .detalhes input {
+    font-size: 10px;
+  }
+  .body_location .detalhes label {
+    width: 280px;
+    margin: 10px auto 30px;
+  }
+  .body_location .detalhes label span {
+    font-size: 12px;
+    left: 10px;
+  }
+
+  .body_signUp .detalhes select {
+    width: 300px;
+    height: 45px;
+    font-size: 12px;
+  }
+  .body_signUp .detalhes label {
+    width: 300px;
+  }
+  .body_signUp .detalhes label span {
+    font-size: 12px;
+  }
+
+  .cart .resumo form > input, .cart .resumo form select {
+    width: 280px;
+    height: 45px;
+    font-size: 12px;
+  }
+
+  .body_bookservice header {
+    padding-bottom: 200px;
+  }
+
+  .cart h2 {
+    font-size: 20px;
+    margin: 0 0 20px;
+  }
+  .cart h2 span {
+    font-size: 36px;
+  }
+
+  .cart .resumo label span {
+    font-size: 12px;
+  }
+
+  .cart .resumo h3 {
+    font-size: 16px;
+  }
+
+  .body_testimonials header h2 {
+    font-size: 40px;
+  }
+
+  .business_item_4 .business_head p {
+    margin-bottom: 20px;
+  }
+
+  .benefits h2 {
+    font-size: 36px;
+  }
+
+  .serv_item h4 {
+    font-size: 14px;
+  }
+
+  .price_serv, .review {
+    font-size: 12px;
   }
 }
 
